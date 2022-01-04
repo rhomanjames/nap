@@ -1,5 +1,5 @@
 const settings = {
-  "name": "nap",
+  "name": "hello-frontity",
   "state": {
     "frontity": {
       "url": "https://test.frontity.org",
@@ -9,7 +9,7 @@ const settings = {
   },
   "packages": [
     {
-      "name": "@frontity/mars-theme",
+      "name": "nap-theme",
       "state": {
         "theme": {
           "menu": [
@@ -45,7 +45,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://test.frontity.org"
+          "api": "https://test205976549.wordpress.com/wp-json"
         }
       }
     },
@@ -53,5 +53,4 @@ const settings = {
     "@frontity/html2react"
   ]
 };
-
 export default settings;
